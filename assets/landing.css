@@ -1,0 +1,106 @@
+
+body{ 
+    
+
+    margin: 0;
+    height: 100vh;
+    width: 100vw
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: white;
+    background-size: cover;
+}
+.top {
+
+    background-image: url(../images/istockphoto-1219872152-612x612.jpg);
+    
+    display:flex;
+    align-items:center;
+    height: 30%;
+    width: 100%;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    background-color:#F5F6F5;
+}
+.middle{
+    
+    display: grid;
+    gap: 9px;
+    grid-auto-flow: column;
+    grid-auto-columns: 41%;
+    
+    overflow-x: auto;
+   
+    height: 50%;
+    width: 100%;
+    
+    background-color:white;
+    
+}
+.bottom{
+    height: 20%;
+    width: 100%;
+    background-color:blue;
+    
+}
+#profile-picture{
+    
+    border-radius: 100px;
+    
+}
+
+.profile{
+    
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1), 0 4px 4px 0 rgba(0,0,0,.15);
+    
+    padding: 10px;
+    position: relative;
+    top:50px;
+    background-color: white;
+    width: 40%;
+    border-radius: 5px;
+    align-items:center;
+    flex-direction: column;
+    display: flex;
+}
+
+#name{
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+#title{
+    margin-bottom: 0px;
+    margin-top:10px;
+}
+
+
+.profile-emp{
+    
+   
+    
+    padding: 10px;
+    
+    background-color: white;
+   
+    height: 50%;
+    
+    
+    margin-top: 40px;
+  
+    border-radius: 5px;
+    align-items:center;
+    flex-direction: column;
+    display: flex;
+    
+    
+}
+    
+  .profile-picture-emp{
+      
+      width: 80px;
+      height: 80px;
+      border-radius: 80px;
+  }

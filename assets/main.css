@@ -1,0 +1,358 @@
+body{ 
+    
+
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+
+.transaction-details{
+    
+    width: 90%;
+    
+    align-items: center;
+    justify-content: center;
+   
+  
+   
+    background: white;
+}
+
+.button-container{
+    
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+
+width: 90%;
+
+border-radius:5px;
+background-color:white;
+
+}
+
+h3{
+    font-weight: normal;
+    font-size: 14px;
+   
+    
+}
+   
+   
+#verify{ 
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1), 0 4px 4px 0 rgba(0,0,0,.15);
+   font-size: 12px;
+   height: 40px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: green;
+   border-width: 0;
+   color: white;
+}
+
+
+.main-container{
+    
+    display:none;
+    
+    margin-top: 80px;
+    height: 55%;
+    
+    width: 95%;
+    
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1), 0 4px 4px 0 rgba(0,0,0,.15);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  
+}
+
+#verify-input{
+    
+    font-size: 15px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    display: none;
+    padding-left: 15px;
+    }
+    
+#initiate{
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1), 0 4px 4px 0 rgba(0,0,0,.15);
+    
+    font-size:12px;
+    color: white;
+    background-color: red;
+    
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 0;  
+    display: none;
+    }
+   
+    
+    .zatu{
+        height: 30%;
+        display: flex;
+        font-size: 15px;
+        justify-content:center;
+        width: 90%;
+        text-align: center;
+    }
+    P{
+        
+        margin-left:10px;
+        justify-content:center;
+        font-size: 12px;
+    }
+    
+    .image-container{
+        
+        margin-top:10px;
+        margin-bottom:20px;
+        display: flex;
+       align-items: center; 
+        flex-direction: column;
+        width: 99%;
+        
+        
+    }
+    
+    .icon{
+        
+        border-radius: 40px;
+    }
+    
+    .image-supported{
+        width: 50%;
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    
+    
+    
+    .supported-payments{
+      
+        border-width: 1px;
+        font-weight: normal;
+        margin-top: 10px;
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        
+        
+    }
+    
+    .hero{
+        
+        width: 100%;
+        height: 15%;
+        background-color: #0022B0;
+        
+    }
+        
+.hero-child{
+         margin-top: 10px;
+         margin-left: 20px;
+         display: flex;
+         padding-bottom: 20px;
+            
+        }
+        
+h1{
+            
+            color: #98A7E0;
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 10px;
+            font-weight: normal;
+            
+        }
+#support-email{
+            
+          color: white;
+          font-size: 12px;
+          margin-right: 3px;
+        }
+        
+.modal-content{
+         
+           
+width: 70%;
+height: 40%;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+background: #0022B0;
+border-radius: 10px;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translate(-50%, -50%) scale(0.1);
+text-align: center;
+color: white;
+          
+visibility: hidden;
+transition: transform 0.4s, top 0.4s;
+margin: 0;
+
+
+        }
+ 
+
+
+#approval{
+            margin-bottom:10px;
+            width: 90%;
+            padding-top: 10px;
+            padding-bottom:10px;
+            
+           font-size: 16px;
+           border: 0;
+           border-radius: 20px;
+           
+            
+        }
+        
+.tick{
+            
+            margin-top:-20px;
+        }
+        
+ .modal-after{
+     visibility: visible;
+     top: 50%;
+     transform: translate(-50%, -50%) scale(1);
+     
+ }
+ 
+ .modal{
+     display: none;
+    z-index: 1;
+    position:fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    
+ }
+ 
+ h2{
+     
+     margin: 0;
+     font-size: 17px;
+     
+     
+ }
+ .modal-p{
+     padding: 0;
+     margin-top: 3px;
+ }
+ 
+ 
+ .loading-container{
+     
+     
+     visibility: hidden;
+     z-index: 1;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(0,0,0,0.7);
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .loading-logo{
+     border-radius: 10px;
+     height: 60%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: white;
+     
+     width:100%;
+     margin: 0;
+     padding: 0;
+     
+ }
+ .loading{
+     
+     box-shadow: 0 20px 30px 0 rgba(0,0,0,.1), 0 4px 4px 0 rgba(0,0,0,.15);
+    
+     border-radius: 10px;
+     height: 30%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     background: white;
+  
+     width:70%;
+     text-align: center;
+     
+ }
+ #transfer{
+     margin-top: 20px;
+     font-size: 20px;
+     color: black;
+     
+ }
+ #mtn{
+     margin-left: 20px;
+     border-radius: 70px;
+     
+ }
+ #zatu-logo{
+     margin-right: 20px;
+ }
+ 
+ #money-bag{
+    position: absolute;
+   
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count:infinite;
+    
+    
+    
+ }
+ #propmt{
+     text-align: center;
+     font-size: 9px;
+     
+ }
+ 
+ @keyframes move{
+     from{transform: translatex(25px)}
+         
+     to{transform: translatex(190px)}
+     
+ }
