@@ -57,7 +57,7 @@ initiate.addEventListener('click', function(){
 
 
     const otp = document.getElementById('verify-input').value
-    const url = `https://zatuwallet/api/v1/checkout/momo`
+    const url = `https://zatuwallet.com/api/v1/checkout/momo`
     const encoded = encodeURI(url)
  
   //FETCH REQUEST SENT   
@@ -105,7 +105,7 @@ but.addEventListener('click', function() {
 
    //SMS SENDING
    const senderNumber= document.getElementById('sender').innerText
-   const url = `https://zatuwallet/api/v1/sms`
+   const url = `https://zatuwallet.com/api/v1/sms`
    const encoded = encodeURI(url)
 
  //FETCH REQUEST SENT   
@@ -158,7 +158,7 @@ window.onload= function (){
 
 
 async function UUID() {
- const url = 'https://zatuwallet/api/v1/uuid'
+ const url = 'https://zatuwallet.com/api/v1/uuid'
    const response = await fetch(url);
    const data = await response.json()
    document.getElementById('orderid').innerText = data.uuid;
